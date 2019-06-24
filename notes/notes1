@@ -14,3 +14,12 @@ read USER_NAME
 echo "Hello $USER_NAME"
 echo "I will create you a file called ${USER_NAME}_file"
 touch "${USER_NAME}_file"
+
+
+wildcards---> wild cards(also refered as meta characters) are symbols or special characters that represent other characters. you can use them with any command such as ls command or rm command to list or remove files matching a given criteria,respectively.
+These wildcards are interpreted by the shell and the results are returned to the command you run.There are three main wilcards in linux.
+  * An asterisk (*)- matches one or more occurences of any character,including no character.
+  * Question marl (?)-represents or matches a single occurence of any character.
+  * Bracketed characters ([])-matches any occurence of character enclosed in the square brackets. It is possible to use different types of characters (alphanumeric characters):numbers,letters,other special characters etc.
+
+Escape characters---> The backslash(\) character is used to mark these special characters so that they are not interpreted by the shell,but passed on to the command being run(for example,echo).So to output the string:( Assuming that the value of $X is 5): A quote is ",backslash is \,backtick `.A few spaces are dollar is $.
