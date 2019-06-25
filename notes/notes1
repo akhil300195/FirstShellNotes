@@ -23,3 +23,7 @@ These wildcards are interpreted by the shell and the results are returned to the
   * Bracketed characters ([])-matches any occurence of character enclosed in the square brackets. It is possible to use different types of characters (alphanumeric characters):numbers,letters,other special characters etc.
 
 Escape characters---> The backslash(\) character is used to mark these special characters so that they are not interpreted by the shell,but passed on to the command being run(for example,echo).So to output the string:( Assuming that the value of $X is 5): A quote is ",backslash is \,backtick `.A few spaces are dollar is $.
+
+we have seen why the " is special for preserving spacing.
+Dollar($) is special because it marks a variable,so $X is replaced by thr shell with the contents of the variable X.
+Backslash(\) is special because it is itself used to mark other characters off.
